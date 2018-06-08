@@ -1,18 +1,9 @@
--- This file was automatically generated for the LuaDist project.
-
 package = "hotswap-ev"
-version = "1.1-1"
+version = "master-1"
 
--- LuaDist source
 source = {
-  tag = "1.1-1",
-  url = "git://github.com/LuaDist-testing/hotswap-ev.git"
+  url = "git://github.com/saucisson/lua-hotswap",
 }
--- Original source
--- source = {
---   url = "git://github.com/saucisson/lua-hotswap",
---   tag = "1.1",
--- }
 
 description = {
   summary    = "Hotswap backend using lua-ev",
@@ -27,6 +18,7 @@ dependencies = {
   "hotswap  >= 1",
   "lua-ev   >= v1",
   "luaposix >= 33",
+  "xxhash   >= v1",
 }
 
 build = {
