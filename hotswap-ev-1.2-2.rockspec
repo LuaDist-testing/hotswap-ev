@@ -1,11 +1,11 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "hotswap-ev"
-version = "1.2-1"
+version = "1.2-2"
 
 -- LuaDist source
 source = {
-  tag = "1.2-1",
+  tag = "1.2-2",
   url = "git://github.com/LuaDist-testing/hotswap-ev.git"
 }
 -- Original source
@@ -27,6 +27,7 @@ dependencies = {
   "hotswap  >= 1",
   "lua-ev   >= v1",
   "luaposix >= 33",
+  "xxhash   >= v1",
 }
 
 build = {
